@@ -1,2 +1,5 @@
-# profile-card
-A short description of me, including links to my social media pages. 
+# Frontend Mentor Challenges
+
+Newbie:
+
+Profile Card Component
