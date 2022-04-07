@@ -12,13 +12,13 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
  
-- ### The challenge
+### The challenge
 
-- Build out the project to the designs provided
+ Build out the project to the designs provided
 
 ### Screenshot
 
-![](./images/screenshot.jpg)
+![](./profile-card-component/images/screenshot.jpg)
 
 ### Live Preview
 
