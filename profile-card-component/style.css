@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+/* .attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+} */
+
+/* -----LAYOUT----- */
+
+body {
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-container {
+    height: fit-content;
+    width: fit-content;
+    border-radius: 50%;
+
+    position: absolute;
+    top: 37%;
+    right: 47.3%;
+}
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.name, .age {
+    display: inline-flex;
+    margin-bottom: 4px;
+    padding: 10px;
+}
+
+.description {
+    height: 120px;
+    width: 100%;
+    flex: 1;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.card-footer {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.item {
+    max-width: 200px;
+    text-align: center;
+}
+
+/* -----STYLING----- */
+
+body {
+    background-color: hsl(185, 75%, 39%);
+    background-image: url(./images/bg-pattern-top.svg), 
+    url(./images/bg-pattern-bottom.svg);
+    background-position: right 52vw bottom 45vh, 52vw 45vh;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    font-family: 'Kumbh Sans'
+}
+
+.card {
+    height: 480px;
+    width: 450px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 1px 2px 100px hsl(185, 75%, 31%);
+}
+
+.card-header {
+    background-image: url('images/bg-pattern-card.svg');
+    height: 180px;
+    width: auto;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.card-footer{
+    border-top: 0.5px solid rgb(212, 209, 209);
+    padding-top: 30px;
+}
+
+img {
+    border-radius: 50%;
+    border: 4px solid white;
+}
+
+.name , .item > :nth-child(1){
+    font-size: 18px;
+    font-weight: 700;
+    color: hsl(229, 23%, 23%)
+}
+
+.age, .city, .item > :nth-child(2) {
+    font-size: 18px;
+    font-weight: 400;
+    color: hsl(227, 10%, 46%);
+}
+
+.city {
+    font-size: 16px;
+}
+
+.item > :nth-child(2) {
+    font-size: 14px;
+    margin-top: 4px;
+}
